@@ -1,0 +1,65 @@
+.Book-list-image {
+    height: 150px;
+    width : 100px;
+    margin-right: 10px;
+}
+
+.grid-book-title {
+    font-size: 15px;
+}
+
+.grid-book-detail {
+    font-size: 12px;
+    margin-bottom: 5px;
+}
+
+.book-grid-item {
+    margin-top : 10px;
+    margin-left: 10%;
+}
+
+@media screen and (min-width : 576px) {
+    .Book-list-image {
+        height: 200px;
+        width: 150px;
+    }
+    .grid-book-detail {
+        font-size: 8px;
+    }
+    .grid-book-title {
+        font-size: 10px;
+    }
+}
+
+@media screen and (min-width : 767px) {
+    .Book-list-image {
+        height: 230px;
+        width: 130px;
+    }
+    .grid-book-detail {
+        font-size: 15px;
+    }
+    .grid-book-title {
+        font-size: 20px;
+    }
+    .book-grid-item {
+        margin-top : 10px;
+        margin-left: 0px;
+    }
+}
+
+@media screen and (min-width : 900px) {
+    .Book-list-image {
+        height: 255px;
+        width: 185px;
+    }
+    .grid-book-detail {
+        font-size: 18px;
+    }
+    .grid-book-title {
+        font-size: 26px;
+    }
+    .book-grid-item {
+        margin-left: 0px;
+    }
+}

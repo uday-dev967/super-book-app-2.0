@@ -1,0 +1,68 @@
+.Book-list-image {
+    height: 150px;
+    width : 100px;
+    margin-right: 10px;
+}
+
+.book-title {
+    font-size: 15px;
+}
+
+.book-detail {
+    font-size: 12px;
+    margin-bottom: 5px;
+}
+
+.book-list-item {
+    margin-top : 10px;
+}
+
+.page-lan {
+    width: 120px;
+}
+
+@media screen and (min-width : 576px) {
+    .Book-list-image {
+        height: 200px;
+        width: 150px;
+    }
+    .book-detail {
+        font-size: 20px;
+    }
+    .book-title {
+        font-size: 23px;
+    }
+    .know-more-button{
+        margin-top: 400px;
+        
+    }
+}
+
+@media screen and (min-width : 767px) {
+    .Book-list-image {
+        height: 230px;
+        width: 170px;
+    }
+    .book-detail {
+        font-size: 24px;
+    }
+    .book-title {
+        font-size: 28px;
+    }
+    .page-lan{
+        width: 240px;
+    }
+}
+
+@media screen and (min-width : 900px) {
+    .Book-list-image {
+        height: 255px;
+        width: 185px;
+    }
+    .book-detail {
+        font-size: 29px;
+    }
+    .book-title {
+        font-size: 32px;
+    }
+}

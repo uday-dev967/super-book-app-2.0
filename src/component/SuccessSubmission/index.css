@@ -1,0 +1,22 @@
+.success-image {
+    width: 50%;
+    height: 30vh;
+}
+
+.success-home-container {
+    background-image: url("https://cdn.pixabay.com/photo/2018/08/23/07/35/thunderstorm-3625405_1280.jpg");
+    color : white;
+    height: 100vh;
+    padding-top: 50px;
+    font-family: "Roboto";
+    background-size: cover;
+    overflow: auto;
+    text-align: center;
+}
+
+@media screen and (max-width : 768px) {
+    .success-image{
+        width: 90%;
+        height: 30vh;
+    }
+}
